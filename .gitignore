@@ -1,0 +1,7 @@
+codealpha_env/ 
+codealpha_gpu_env/ 
+*.pkl 
+*.pth 
+*.pt 
+__pycache__/ 
+musicai/dataset/ 
