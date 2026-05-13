@@ -1,6 +1,6 @@
 # 🌍 CodeAlpha — Language Translation Tool
 
-A Python desktop application that translates text between 100+ languages using Google Translate, built with a modern Claymorphism UI.
+A Python desktop application that translates text between 100+ languages using Google Translate.
 
 ---
 
@@ -13,11 +13,10 @@ A Python desktop application that translates text between 100+ languages using G
 ## ✨ Features
 
 - 🌐 Translate between **100+ languages**
-- 🔍 **Auto-detect** source language
 - 🎨 Modern **Claymorphism UI** built with CustomTkinter
 - 📋 **Copy** translation to clipboard with one click
 - 🗑️ **Clear** button to reset both text fields
-- ⚡ Fast and lightweight — no API key required
+
 
 ---
 
@@ -81,6 +80,11 @@ deep-translator
 
 ```
 CodeAlpha_LanguageTranslator/
+├── translator.py
+├── translatorV1.1.py
+├── translatorV1.2.py
+├── translatorV1.3.py
+├── translatorV1.4.py
 ├── translatorV1.5.py    ← Main application file
 ├── requirements.txt     ← Dependencies
 └── README.md
@@ -92,5 +96,3 @@ CodeAlpha_LanguageTranslator/
 
 Built as part of the **CodeAlpha AI Internship Program**
 
-> Connect with me on LinkedIn: [Your LinkedIn]
-> GitHub: [Your GitHub]
