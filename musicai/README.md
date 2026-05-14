@@ -1,6 +1,6 @@
 # 🎵 CodeAlpha — Music Generation with AI
 
-An AI that composes original piano music using a deep LSTM neural network trained on classical MIDI files by Bach, Beethoven, Chopin, Debussy and more.
+An AI that composes original piano music using a deep LSTM neural network trained on classical MIDI files by Beethoven, Chopin, Debussy and more.
 
 ## ✨ Features
 - 🧠 Deep LSTM neural network trained on classical piano music
@@ -12,7 +12,7 @@ An AI that composes original piano music using a deep LSTM neural network traine
 ## 🛠️ Tech Stack
 | Tool | Purpose |
 |---|---|
-| Python 3.11 | Core language |
+| Python 3.11 | Core language (GPU only) |
 | PyTorch | LSTM model training |
 | music21 | MIDI parsing and generation |
 | NumPy | Data processing |
@@ -45,7 +45,7 @@ python generate.py
 Output saved as `generated_music.mid`
 
 ## 🎧 Listen
-Open `generated_music.mid` with VLC, Windows Media Player, or MuseScore.
+Open `generated_music.mid` with VLC or Windows Media Player.
 
 ## 📁 Project Structure
 ```
@@ -63,5 +63,5 @@ CodeAlpha_MusicGeneration/
 2. Training — LSTM learns patterns from 44,684 notes
 3. Generation — Model predicts notes one by one to compose new music
 
-## 👨‍💻 Author
-Built as part of the **CodeAlpha AI Internship Program**
+## 📝 Something to remember
+To run this AI model, make sure to have a GPU to speed up the training process.
